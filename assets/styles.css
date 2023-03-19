@@ -1,0 +1,44 @@
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.square {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;    
+    background-color: #eee;
+    overflow: hidden;
+    border: 5px solid #000;
+    box-sizing: border-box;
+}
+		
+.square img {
+    width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.square-player1{
+    float: left;
+    width: 35%;
+    height: 35%;
+    margin-left: 100px;
+    padding-left: 30px;
+}
+
+.square-player2{
+    float: right;
+    width: 35%;
+    height: 35%;
+    margin-right: 100px;
+    padding-right: 30px;
+}
+
